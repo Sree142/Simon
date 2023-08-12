@@ -5,7 +5,7 @@ var buttonColours = ["red", "blue", "green", "yellow"];
 
 function playSound(name){
   var sound = new Audio("sounds/"+name+".mp3");
-  sound.volume = 0.3;
+  sound.volume = 0.2;
   sound.play();
 }
 
